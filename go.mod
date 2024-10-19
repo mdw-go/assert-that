@@ -1,4 +1,4 @@
-module github.com/mdwhatcott/assert-that
+module github.com/mdw-go/assert-that
 
 go 1.15
 

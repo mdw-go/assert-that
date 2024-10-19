@@ -11,11 +11,11 @@ import (
 //
 // For example:
 //
-//     assert.Tha(t, 42).IsBetween(0, 100)
+//	assert.Tha(t, 42).IsBetween(0, 100)
 //
 // ...which correlates very closely with the following prose:
 //
-//     "Assert that 42 is between 0 and 100."
+//	"Assert that 42 is between 0 and 100."
 func Tha(t testingT, actual interface{}) *assertion {
 	t.Helper()
 	return &assertion{

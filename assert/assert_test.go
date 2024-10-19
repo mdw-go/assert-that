@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdwhatcott/assert-that/assert"
+	"github.com/mdw-go/assert-that/assert"
 )
 
 func TestAlmostEquals(t *testing.T)             { assert.Tha(t, 42).AlmostEquals(42.001, .01) }
